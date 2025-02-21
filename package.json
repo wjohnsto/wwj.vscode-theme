@@ -1,7 +1,10 @@
 {
   "name": "wwj-vscode-theme",
   "displayName": "wwj.vscode-theme",
-  "description": "",
+  "description": "This is my personal VS Code theme, loosely modeled after CarbonFox",
+  "repository": {
+    "url": "https://github.com/wjohnsto/wwj.vscode-theme"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
