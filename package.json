@@ -13,14 +13,14 @@
     "Themes"
   ],
   "scripts": {
-    "deploy": "bun . && cp -r ../wwj.vscode-theme/ $HOME/.vscode/extensions/"
+    "deploy": "bun . && mkdir -p $HOME/.vscode/extensions/wwj.vscode-theme && cp -r ./themes package.json $HOME/.vscode/extensions/"
   },
   "contributes": {
     "themes": [
       {
         "label": "wwj-theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/wwj-theme-color-theme.json"
+        "path": "./themes/wwj-color-theme.json"
       }
     ]
   }

@@ -6,7 +6,7 @@ import fs from "fs";
  */
 
 /**
- * @typedef {import("./themes/wwj-theme-color-theme.json")} Theme
+ * @typedef {import("./themes/wwj-color-theme.json")} Theme
  */
 
 /**
@@ -675,4 +675,4 @@ function generate(variant) {
 }
 
 const dark = generate("dark");
-fs.writeFileSync("./themes/wwj-theme-color-theme.json", JSON.stringify(dark, null, 2));
+fs.writeFileSync("./themes/wwj-color-theme.json", JSON.stringify(dark, null, 2));

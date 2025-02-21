@@ -20,7 +20,7 @@ git clone https://github.com/wjohnsto/wwj.vscode-theme.git
 ### Deployment
 
 ```
-bun deploy
+bun run deploy
 ```
 
 ### Modifications
