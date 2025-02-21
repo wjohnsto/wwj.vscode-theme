@@ -1,0 +1,24 @@
+{
+  "name": "wwj-vscode-theme",
+  "displayName": "wwj.vscode-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "deploy": "bun . && cp -r ../wwj.vscode-theme/ $HOME/.vscode/extensions/"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "wwj-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wwj-theme-color-theme.json"
+      }
+    ]
+  }
+}
