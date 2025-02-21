@@ -1,4 +1,4 @@
-# wwj.vscode-theme README
+# wwj.vscode-theme
 
 This is my personal VS Code theme, loosely modeled after [CarbonFox](https://github.com/EdenEast/nightfox.nvim)
 
